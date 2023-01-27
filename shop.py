@@ -17,5 +17,5 @@ class Shop:
     def show_list(self):
         return self.items
 
-    def addItem(self, itemName, itemPrice):
+    def add_item(self, itemName, itemPrice):
         self.items.append([itemName, itemPrice])

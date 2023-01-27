@@ -1,19 +1,24 @@
-import DND_User_Class as user
+import User_Class as user
 import os
 from time import sleep
 from termcolor import colored
 import msvcrt
 import logging
+import logging.config
 
+logging.config.fileConfig('loggerConfig.toml',disable_existing_loggers=False)
+logger = logging.getLogger(__name__)
+gameLog = logging.getLogger('gameLogger')
+userLog = logging.getLogger('userLogger')
 
 class Login:
-    logger = logging.getLogger(__name__)
-    f_handler = logging.FileHandler("Users.log")
-    f_handler.setLevel(logging.INFO)
-    f_format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-    f_handler.setFormatter(f_format)
-    logger.addHandler(f_handler)
-    logger.setLevel(logging.INFO)
+    # logger = logging.getLogger(__name__)
+    # f_handler = logging.FileHandler("Users.log")
+    # f_handler.setLevel(logging.INFO)
+    # f_format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    # f_handler.setFormatter(f_format)
+    # logger.addHandler(f_handler)
+    # logger.setLevel(logging.INFO)
 
     def __init__(self, *args, **kwargs) -> None:
         pass
@@ -25,7 +30,7 @@ class Login:
         self._Password = input("Please enter your Password: ")
 
         This_user = user.SignUp(self._User_Name, self._Password)
-        self.logger.info(f"{self._User_Name} signed up")
+        userLog.info(f"{self._User_Name} signed up")
         os.system("cls")
         print(colored("Welcome to D&D !!!", "red", "on_green"))
         self.Welcome()
@@ -39,8 +44,8 @@ class Login:
         This_User = user.User(self._User_Name, self._Password)
 
         if This_User.FindTheUser():
-            if This_User.checkpassword():
-                self.logger.info(f"{self._User_Name} logged in")
+            if This_User.check_password():
+                userLog.info(f"{self._User_Name} logged in")
                 # return This_User.readUserDetail
                 return True
 

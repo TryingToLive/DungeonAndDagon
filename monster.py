@@ -8,16 +8,16 @@ class Monster:
         self.gold = int(gold / 2)
         self.damage = damage
 
-    def getName():
+    def get_name():
         return "monster"
 
     def __str__(self):
-        return self.getName() + " with " + self.health + " health"
+        return self.get_name() + " with " + self.health + " health"
 
-    def dealDamage(self, who, dmg):
-        who.takeDamage(dmg)
+    def deal_damage(self, who, dmg):
+        who.take_damage(dmg)
 
-    def takeDamage(self, dmg):
+    def take_damage(self, dmg):
 
         self.health = self.health - dmg
         print(self.health)
@@ -36,7 +36,7 @@ class Monster:
     def attack(self, target):
 
         damage = randint(10, 100) / 10
-        self.dealDamage(target, damage)
+        self.deal_damage(target, damage)
         return damage
 
 
@@ -44,7 +44,7 @@ class Troll(Monster):
     def __init__(self):
         Monster.__init__(self, 50, 4, 10)
 
-    def getName(self):
+    def get_name(self):
         return "troll"
 
 
@@ -52,7 +52,7 @@ class Bandit(Monster):
     def __init__(self):
         Monster.__init__(self, 40, 12, 10)
 
-    def getName(self):
+    def get_name(self):
         return "bandit"
 
 
@@ -60,7 +60,7 @@ class Wolf(Monster):
     def __init__(self):
         Monster.__init__(self, 60, 4, 10)
 
-    def getName(self):
+    def get_name(self):
         return "wolf"
 
 
@@ -68,7 +68,7 @@ class Giant(Monster):
     def __init__(self):
         Monster.__init__(self, 120, 20, 10)
 
-    def getName(self):
+    def get_name(self):
         return "giant"
 
 
@@ -76,11 +76,11 @@ class Dragon(Monster):
     def __init__(self):
         Monster.__init__(self, 60, 20, 10)
 
-    def getName(self):
+    def get_name(self):
         return "dragon"
 
 
-def monsterFromName(name):
+def monster_from_name(name):
     if name == "troll":
         return Troll()
     elif name == "bandit":
@@ -98,6 +98,6 @@ def monsterFromName(name):
 monsters = ["troll", "bandit", "wolf", "giant", "dragon"]
 
 
-def getMonster():
+def get_monster():
     num = randint(0, 4)
-    return monsterFromName(monsters[num])
+    return monster_from_name(monsters[num])

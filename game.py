@@ -1,115 +1,33 @@
-from random import randint, choice
 import sys
-from shop import Shop
 import monster
+import logging
+from shop import Shop
 import SignupLogin as s
+from random import randint
+from map import Map_Grid
+from map import graph
+import logging.config
 
 
-class MapGrid():
-    """in this class we identify the attributes for map grid
-    and we init the different variables in the game"""
-
-    def __init__(self, width, height):
-
-        self.width = width
-        self.height = height
-        self.walls = []
-        self.start = (0, 0)
-        self.goal = (18, 18)
-        self.player = (0, 0)
-        self.shop = (9, 9)
-        self.dragon = (randint(0, 18), randint(0, 18))
-
-    def move_player(self, move):
-        obj = Player()
-        x = self.player[0]
-        y = self.player[1]
-        pos = (x, y)
-        self.walls = g.walls
-        if move[0] == "r":
-            pos = (x + 1, y)
-            if x >= 18:
-                print("out of range")
-                pos = (x, y)
-        if move[0] == "l":
-            pos = (x - 1, y)
-            if x <= 0:
-                print("out of range")
-                pos = (x, y)
-        if move[0] == "u":
-            pos = (x, y - 1)
-            if y <= 0:
-                print("out of range")
-                pos = (x, y)
-        if move[0] == "d":
-            pos = (x, y + 1)
-            if y >= 18:
-                print("out of range")
-                pos = (x, y)
-        if pos not in self.walls:
-            self.player = pos
-        if pos == self.shop:
-            Player.browseShop(Player(),"\nWelcome to the shop!")
-        if pos == self.dragon:
-            print("you hit the dragon !")
-            shape = "☠ "
-            print("%%-%ds" % 2 % shape, end="")
-            sys.exit()
-        if pos == self.goal:
-            if "The key" in obj.inventory:
-                print("You made it to the end")
-                sys.exit()
-            else:
-                print("you need the key to open the door and win the game")
-                print("you can buy the key from the shop")
-
-    def draw_grid(self, width=2):
-        # self.walls = MapGrid.get_walls(self)
-        for y in range(self.height):
-            for x in range(self.width):
-                if (x, y) in g.walls:
-                    symbol = "🟥"
-                elif (x, y) == self.shop:
-                    symbol = "🏠"
-                elif (x, y) == self.player:
-                    symbol = "★  "
-                elif (x, y) == self.start:
-                    symbol = "<  "
-                elif (x, y) == self.goal:
-                    symbol = "🚩"
-                elif (x, y) == self.dragon:
-                    symbol = "🟩"
-                else:
-                    symbol = "🟩"
-                print("%%-%ds" % width % symbol, end="")
-            print()
-
-    def get_walls(self, pct=0.25) -> list:
-        out = []
-        for _ in range(int((self.height * self.width * pct) // 2)):
-            x = randint(1, self.width - 2)
-            y = randint(1, self.height - 2)
-            out.append((x, y))
-            out.append((x + choice([-1, 0, 1]), y + choice([-1, 0, 1])))
-            if (9, 9) in out:
-                out.remove((9, 9))
-            if (18, 18) in out:
-                out.remove((18, 18))
-        return out
+logging.config.fileConfig("loggerConfig.toml", disable_existing_loggers=False)
+logger = logging.getLogger(__name__)
+gameLog = logging.getLogger("gameLogger")
+userLog = logging.getLogger("userLogger")
 
 
-class Player(MapGrid):
-    def __init__(self):
-        self.inventory = ["apple", "old knife"]
-        self.gold = 10
-        self.health = 100
-        self.maxHealth = 100
-        self.restHeal = 5
-        self.turns = 0
-        self.alive = True
-        self.weapon = ""
+class Player(Map_Grid):
+    def __init__(self) -> None:
+        self.inventory: list = ["apple", "old knife"]
+        self.gold: int = 10
+        self.health: int = 100
+        self.maxHealth: int = 100
+        self.restHeal: int = 5
+        self.turns: int = 0
+        self.alive: bool = True
+        self.weapon: str = ""
+        self.login: bool = True
 
-    def __str__(self):
+    def __str__(self) -> str:
         return (
             "health: "
             + self.health
@@ -119,27 +37,33 @@ class Player(MapGrid):
             + self.inventory
         )
 
-    def getName(self):
+    def get_name(self) -> str:
         return "player"
 
-    def die(self):
+    def die(self) -> str:
         self.alive = False
         print("Game Over.")
         sys.exit()
 
-    def dealDamage(self, who, dmg):
-        who.takeDamage(dmg)
+    def log_out(self) -> str:
+        userLog.info("player logged out")
+        sys.exit("you logged out")
 
-    def takeDamage(self, dmg):
+    def deal_damage(self, who, dmg) -> None:
+        who.take_damage(dmg)
+
+    def take_damage(self, dmg) -> int:
+        gameLog.info(f"player took {dmg} damage")
         self.health -= dmg
 
-    def displayList(self, List):
+    def display_list(self, List) -> list:
         for i in range(0, len(List)):
             print(str(i + 1) + ": " + List[i])
-    def get_gold(self):
+
+    def get_gold(self) -> int:
         return self.gold
 
-    def heal(self, amount, announce=True):
+    def heal(self, amount, announce=True) -> str:
         if self.maxHealth - self.health < amount:
             self.health = self.maxHealth
             if announce:
@@ -148,6 +72,7 @@ class Player(MapGrid):
             self.health += amount
             if announce:
                 if amount > 0:
+                    gameLog.info(f"player restored {amount} health")
                     print(
                         "\nYou have been restored "
                         + str(amount)
@@ -168,24 +93,25 @@ class Player(MapGrid):
                         + " health."
                     )
 
-    def equipWeapon(self, item):
+    def equip_weapon(self, item) -> str:
         if self.weapon != "":
             self.inventory.append(self.weapon)
         self.weapon = item
+        gameLog.info(f"player equipped {item} ")
         print("You have equipped " + item + "!")
 
-    def attacked(self):
-        attacker = monster.getMonster()
+    def attacked(self) -> str:
+        attacker = monster.get_monster()
 
         print("________________________________________________\n")
-        print("You have been attacked by a " + attacker.getName() + "!")
+        print("You have been attacked by a " + attacker.get_name() + "!")
         print("________________________________________________")
 
         while attacker.health > 0:
             print("\nYou have " + str(self.health) + " health.")
             print(
                 "The "
-                + attacker.getName()
+                + attacker.get_name()
                 + " has "
                 + str(attacker.health)
                 + " health.\n"
@@ -199,30 +125,32 @@ class Player(MapGrid):
             attack = input("<attack>").lower()
             if attack == "punch":
                 damage = 10
-                self.dealDamage(attacker, damage)
+                self.deal_damage(attacker, damage)
                 print(
                     "\nYou dealt "
                     + str(damage)
                     + " damage to the "
-                    + attacker.getName()
+                    + attacker.get_name()
                     + " using punch !"
                 )
+                gameLog.info(f"player punched the monster")
             elif attack == "sword":
                 damage = 15
-                self.dealDamage(attacker, damage)
+                self.deal_damage(attacker, damage)
                 print(
                     "\nYou dealt "
                     + str(damage)
                     + " damage to the "
-                    + attacker.getName()
+                    + attacker.get_name()
                     + " using sword !"
                 )
+                gameLog.info("player used sword to attack the monster")
 
             monsterAttack = attacker.attack(self)
 
             print(
                 "\nThe "
-                + attacker.getName()
+                + attacker.get_name()
                 + " dealt "
                 + str(int(monsterAttack))
                 + " damage to you "
@@ -230,8 +158,8 @@ class Player(MapGrid):
 
             if attacker.health <= 0:
                 attacker.die()
-
-                print("\nYou have defeated the " + attacker.getName() + "!")
+                gameLog.info("player defeated the monster")
+                print("\nYou have defeated the " + attacker.get_name() + "!")
                 self.gold = self.gold + 15
                 print("and you got 15 gold from it")
 
@@ -246,20 +174,22 @@ class Player(MapGrid):
                 self.die()
                 break
 
-    def scavenge(self):
+    def scavenge(self) -> int:
         if randint(1, 3) <= 2:
             gold = randint(1, 4)
             print("While scavenging, you find " + str(gold) + " gold.")
             self.gold = self.gold + gold
+            gameLog.info(f"player got {gold} gold while scavenging")
             return gold
+
         else:
             if randint(1, 30) == 1:
                 print("While scavenging, you find a lesser health potion.")
                 self.inventory.append("lesser health potion")
             else:
                 print("You find nothing while scavenging.")
-                
-    def browseShop(self, message):
+
+    def browse_shop(self, message) -> str:
         print(message)
         gold = self.get_gold()
         print("\nYou have " + str(gold) + " gold.")
@@ -268,15 +198,7 @@ class Player(MapGrid):
         print(items)
 
         print("0: exit.")
-        # for i in range(0, len(items)):
-        #    print(
-        #        str(i + 1)
-        #        + ": "
-        #        + str(items[i][0])
-        #        + " costs "
-        #        + str(items[i][1])
-        #        + " gold."
-        #    )
+
         item = Shop.show_list(Shop())
         buy = ""
         while buy != "0":
@@ -288,7 +210,7 @@ class Player(MapGrid):
             if int(buy) == 0:
                 break
 
-            item = item[int(buy) - 1]
+            item: list = item[int(buy) - 1]
 
             if self.gold < item[1]:
                 print("\nYou don't have enough gold to purchase 1 " + item[0] + ".")
@@ -298,19 +220,18 @@ class Player(MapGrid):
 
             self.inventory.append(item[0])
             print("\nYou purchased 1 " + item[0] + " for " + str(item[1]) + " gold.")
-            self.useItem(len(self.inventory) - 1, item[0], True)
+            gameLog.info(f"player bought {item}")
+            self.use_item(len(self.inventory) - 1, item[0], True)
             print("\nNow you have " + str(self.gold) + " gold.")
 
-    def rest(self):
-        healing = self.restHeal
+    def rest(self) -> int:
+        healing: int = self.restHeal
         if randint(1, 4) == 1:
             print("\n\tCritical heal!")
             healing *= 2
         self.heal(healing)
 
-
-
-    def useItem(self, item, itemName, auto_equip=False):
+    def use_item(self, item, itemName, auto_equip=False) -> list:
         if itemName == "apple" and not auto_equip:
             self.heal(12 + randint(0, 10))
         elif itemName == "lesser health potion" and not auto_equip:
@@ -318,16 +239,16 @@ class Player(MapGrid):
         elif itemName == "greater health potion" and not auto_equip:
             self.heal(26 + randint(0, 20))
         elif itemName == "old knife":
-            self.equipWeapon("old knife")
+            self.equip_weapon("old knife")
         else:
             return
         self.inventory.pop(item)
 
-    def use(self):
+    def use(self) -> str:
         print("\n0: <exit>")
-        self.displayList(self.inventory)
+        self.display_list(self.inventory)
 
-        use = input("\n<use>")
+        use: int = input("\n<use>")
         while not use.isdigit():
             print("Please enter a valid item number or exit (0).")
             use = input("<use>")
@@ -336,27 +257,67 @@ class Player(MapGrid):
         if use == 0:
             return
 
-        self.useItem(use - 1, self.inventory[use - 1])
+        self.use_item(use - 1, self.inventory[use - 1])
 
-    def help(self):
+    def move_player(self, move) -> tuple:
+
+        x: int = graph.player[0]
+        y: int = graph.player[1]
+        pos: tuple = (x, y)
+        self.walls = graph.walls
+        if move[0] == "r":
+            pos = (x + 1, y)
+            if x >= 18:
+                print("out of range")
+                pos = (x, y)
+        if move[0] == "l":
+            pos = (x - 1, y)
+            if x <= 0:
+                print("out of range")
+                pos = (x, y)
+        if move[0] == "u":
+            pos = (x, y - 1)
+            if y <= 0:
+                print("out of range")
+                pos = (x, y)
+        if move[0] == "d":
+            pos = (x, y + 1)
+            if y >= 18:
+                print("out of range")
+                pos = (x, y)
+        gameLog.info(f"player moved from ({x}, {y}) to {pos}")
+        if pos not in self.walls:
+            graph.player = pos
+        if pos == graph.shop:
+            self.browse_shop("\nWelcome to the shop!")
+        if pos == graph.goal:
+            if "The key" in self.inventory:
+                print("You made it to the end")
+                gameLog.info("player entered the door and finished the game")
+                sys.exit()
+            print("you need the key to open the door and finish the game")
+            print("you can buy the key from the shop")
+        gameLog.info("player entered the door but they dont have the key")
+
+    def help(self) -> str:
         print("\nWelcome to Dungeons and Dragons! ")
         print("Type 'help' to bring up this menu again.\n")
         print(
-            "Commands:\n\thelp (h)\n\tmove (m)\n\tinventory (i)\n\tscavenge (s)\n\trest (r)\n\tuse (u)\n"
+            "Commands:\n\thelp (h)\n\tmove (m)\n\tinventory (i)\n\tscavenge (s)\n\trest (r)\n\tuse (u)\n\tlog out (l)\n"
         )
         print("Beware of monsters; they will occasionally attack you.\n")
 
-    def showInventory(self):
+    def show_inventory(self) -> str:
         print(
             "\ngold: " + str(self.gold) + "\ninventory: " + str(self.inventory) + "\n"
         )
 
-    def moves(self, choice):
-        choice = choice.lower()
+    def moves(self, choice) -> bool:
+        choice: str = choice.lower()
         if choice == "help":
             self.help()
         elif choice == "inventory" or choice == "i":
-            self.showInventory()
+            self.show_inventory()
         elif choice == "rest" or choice == "r":
             self.rest()
         elif choice == "scavenge" or choice == "s":
@@ -365,26 +326,28 @@ class Player(MapGrid):
             self.use()
         elif choice == "move" or choice == "m":
             while True:
-                MapGrid.draw_grid(g)
-                user_input = input(
-                    "Please choose you want to move (l, u, r, d) or (ex) to go to menu : "
+                Map_Grid.draw_grid(graph)
+                user_input: str = input(
+                    "Please choose you want to move (l, u, r, d) and (s) for scavenging or (ex) to go to menu : "
                 ).lower()
+
                 if user_input == "ex":
                     break
                 elif user_input == "s" or user_input == "scavenge":
                     self.scavenge()
                 else:
-                    g.move_player(user_input)
+                    self.move_player(user_input)
                     self.turns += 1
                     if self.turns > 6 and randint(0, 4) == 0:
                         self.attacked()
-
+        elif choice == "log out" or choice == "l":
+            self.log_out()
         else:
             print("\nPlease type a valid command such as 'shop'.")
             return False
         return True
 
-    def takeTurn(self):
+    def take_turn(self) -> int:
         self.turns += 1
         print("________________________________________________")
 
@@ -398,20 +361,7 @@ class Player(MapGrid):
         if self.turns > 6 and randint(0, 6) == 0:
             self.attacked()
 
-    def play(self):
+    def play(self) -> str:
         while self.alive is True:
-            self.takeTurn()
+            self.take_turn()
         print("\n\t You survived " + str(self.turns) + " turns.")
-
-
-Shop.addItem(Shop(), "lesser health potion", 12)
-Shop.addItem(Shop(), "greater health potion", 12)
-Shop.addItem(Shop(), "rusty sword", 12)
-Shop.addItem(Shop(), "key", 12)
-user = s.Login()
-user.Welcome()
-play = Player()
-g = MapGrid(19, 19)
-g.walls = MapGrid.get_walls(g)
-play.help()
-play.play()

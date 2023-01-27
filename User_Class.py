@@ -1,4 +1,3 @@
-import os
 import hashlib
 import json
 
@@ -21,10 +20,9 @@ class Hashing:
 
 
 class User(Hashing):
-    Player_Detail = {"user": "", "level": int, "money": int, "items": "", "stocks": ""}
+    Player_Detail = {"user": "", "level": int, "money": int, "items": ""}
     __Users_List = list()
     __The_User = any
-    stocks: str = None
     items: str = None
     money: int = None
 
@@ -57,7 +55,7 @@ class User(Hashing):
         else:
             return False
 
-    def checkpassword(self) -> bool:
+    def check_password(self) -> bool:
         """
         self.__The_User[0]= username
         self.__The_User[1]= key

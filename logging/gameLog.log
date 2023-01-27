@@ -1,0 +1,847 @@
+2023-01-24 16:58:54,302 - __main__ - INFO - player moved down
+2023-01-24 16:58:54,671 - __main__ - INFO - player moved down
+2023-01-24 16:58:55,047 - __main__ - INFO - player moved down
+2023-01-24 16:58:55,418 - __main__ - INFO - player moved down
+2023-01-24 16:58:55,778 - __main__ - INFO - player moved down
+2023-01-24 16:58:56,130 - __main__ - INFO - player moved down
+2023-01-24 16:58:56,472 - __main__ - INFO - player moved down
+2023-01-24 16:58:56,805 - __main__ - INFO - player moved down
+2023-01-24 16:58:57,136 - __main__ - INFO - player moved down
+2023-01-24 16:58:57,484 - __main__ - INFO - player moved down
+2023-01-24 16:59:03,202 - __main__ - INFO - player moved down
+2023-01-24 16:59:05,918 - __main__ - INFO - player moved up
+2023-01-24 16:59:08,089 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:08,090 - __main__ - INFO - player took 10.0 damage
+2023-01-24 16:59:08,947 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:08,948 - __main__ - INFO - player took 6.9 damage
+2023-01-24 16:59:09,792 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:09,792 - __main__ - INFO - player took 2.1 damage
+2023-01-24 16:59:09,793 - __main__ - INFO - player defeated the monster
+2023-01-24 16:59:10,991 - __main__ - INFO - player moved right
+2023-01-24 16:59:11,377 - __main__ - INFO - player moved right
+2023-01-24 16:59:11,856 - __main__ - INFO - player moved down
+2023-01-24 16:59:12,232 - __main__ - INFO - player moved down
+2023-01-24 16:59:12,571 - __main__ - INFO - player moved down
+2023-01-24 16:59:12,979 - __main__ - INFO - player moved right
+2023-01-24 16:59:13,379 - __main__ - INFO - player moved down
+2023-01-24 16:59:14,499 - __main__ - INFO - player moved right
+2023-01-24 16:59:14,941 - __main__ - INFO - player moved down
+2023-01-24 16:59:15,328 - __main__ - INFO - player moved down
+2023-01-24 16:59:15,735 - __main__ - INFO - player moved down
+2023-01-24 16:59:16,131 - __main__ - INFO - player moved down
+2023-01-24 16:59:16,537 - __main__ - INFO - player moved right
+2023-01-24 16:59:16,944 - __main__ - INFO - player moved right
+2023-01-24 16:59:18,897 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:18,898 - __main__ - INFO - player took 6.7 damage
+2023-01-24 16:59:20,316 - __main__ - INFO - player punched the monster
+2023-01-24 16:59:20,317 - __main__ - INFO - player took 7.1 damage
+2023-01-24 16:59:21,131 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:21,132 - __main__ - INFO - player took 9.0 damage
+2023-01-24 16:59:21,989 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:21,990 - __main__ - INFO - player took 7.5 damage
+2023-01-24 16:59:22,785 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:22,785 - __main__ - INFO - player took 7.5 damage
+2023-01-24 16:59:23,564 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:23,564 - __main__ - INFO - player took 4.3 damage
+2023-01-24 16:59:24,389 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:24,389 - __main__ - INFO - player took 8.7 damage
+2023-01-24 16:59:25,201 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:25,201 - __main__ - INFO - player took 8.5 damage
+2023-01-24 16:59:26,060 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 16:59:26,060 - __main__ - INFO - player took 2.7 damage
+2023-01-24 16:59:26,061 - __main__ - INFO - player defeated the monster
+2023-01-24 16:59:27,745 - __main__ - INFO - player moved right
+2023-01-24 16:59:28,098 - __main__ - INFO - player moved right
+2023-01-24 16:59:28,432 - __main__ - INFO - player moved right
+2023-01-24 17:03:12,972 - __main__ - INFO - player moved down
+2023-01-24 17:03:12,973 - __main__ - INFO - player moved from 0 and 0 to (0, 1)
+2023-01-24 17:03:13,439 - __main__ - INFO - player moved right
+2023-01-24 17:03:13,440 - __main__ - INFO - player moved from 0 and 1 to (1, 1)
+2023-01-24 17:03:13,930 - __main__ - INFO - player moved right
+2023-01-24 17:03:13,931 - __main__ - INFO - player moved from 1 and 1 to (2, 1)
+2023-01-24 17:03:14,328 - __main__ - INFO - player moved right
+2023-01-24 17:03:14,328 - __main__ - INFO - player moved from 2 and 1 to (3, 1)
+2023-01-24 17:03:14,758 - __main__ - INFO - player moved right
+2023-01-24 17:03:14,758 - __main__ - INFO - player moved from 3 and 1 to (4, 1)
+2023-01-24 17:03:15,157 - __main__ - INFO - player moved right
+2023-01-24 17:03:15,158 - __main__ - INFO - player moved from 4 and 1 to (5, 1)
+2023-01-24 17:03:17,122 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 17:03:17,122 - __main__ - INFO - player took 3.1 damage
+2023-01-24 17:52:56,803 - __main__ - INFO - player moved from (0,0) to (0, 1)
+2023-01-24 17:52:57,210 - __main__ - INFO - player moved from (0,1) to (0, 2)
+2023-01-24 17:52:57,612 - __main__ - INFO - player moved from (0,2) to (0, 3)
+2023-01-24 17:52:58,011 - __main__ - INFO - player moved from (0,3) to (0, 4)
+2023-01-24 17:52:58,408 - __main__ - INFO - player moved from (0,4) to (0, 5)
+2023-01-24 17:52:58,821 - __main__ - INFO - player moved from (0,5) to (0, 6)
+2023-01-24 17:52:59,693 - __main__ - INFO - player moved from (0,6) to (1, 6)
+2023-01-24 17:53:00,093 - __main__ - INFO - player moved from (1,6) to (2, 6)
+2023-01-24 17:53:00,500 - __main__ - INFO - player moved from (2,6) to (3, 6)
+2023-01-24 17:53:02,465 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 17:53:02,466 - __main__ - INFO - player took 9.5 damage
+2023-01-24 17:53:55,235 - __main__ - INFO - player moved from (0,0) to (0, 1)
+2023-01-24 17:53:55,964 - __main__ - INFO - player moved from (0,0) to (1, 0)
+2023-01-24 17:53:56,305 - __main__ - INFO - player moved from (1,0) to (2, 0)
+2023-01-24 17:53:56,607 - __main__ - INFO - player moved from (2,0) to (3, 0)
+2023-01-24 17:53:56,983 - __main__ - INFO - player moved from (3,0) to (3, 1)
+2023-01-24 17:53:57,328 - __main__ - INFO - player moved from (3,1) to (3, 2)
+2023-01-24 17:53:57,632 - __main__ - INFO - player took 4.4 damage
+2023-01-24 18:02:54,606 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-24 18:02:55,103 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-24 18:02:55,545 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-24 18:02:56,020 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-24 18:02:56,531 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-24 18:02:57,121 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-24 18:03:00,765 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-24 18:03:01,517 - __main__ - INFO - player moved from (0, 1) to (1, 1)
+2023-01-24 18:03:02,050 - __main__ - INFO - player moved from (1, 1) to (2, 1)
+2023-01-24 18:03:02,695 - __main__ - INFO - player moved from (2, 1) to (3, 1)
+2023-01-24 18:03:03,172 - __main__ - INFO - player moved from (3, 1) to (3, 2)
+2023-01-24 18:03:03,632 - __main__ - INFO - player moved from (3, 2) to (3, 3)
+2023-01-24 18:03:04,048 - __main__ - INFO - player moved from (3, 3) to (3, 4)
+2023-01-24 18:03:04,550 - __main__ - INFO - player moved from (3, 4) to (4, 4)
+2023-01-24 18:03:04,979 - __main__ - INFO - player moved from (4, 4) to (4, 5)
+2023-01-24 18:03:05,413 - __main__ - INFO - player moved from (4, 5) to (4, 6)
+2023-01-24 18:03:07,662 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:07,663 - __main__ - INFO - player took 7.8 damage
+2023-01-24 18:03:08,465 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:08,465 - __main__ - INFO - player took 4.6 damage
+2023-01-24 18:03:09,225 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:09,225 - __main__ - INFO - player took 8.8 damage
+2023-01-24 18:03:09,225 - __main__ - INFO - player defeated the monster
+2023-01-24 18:03:11,230 - __main__ - INFO - player moved from (4, 6) to (4, 7)
+2023-01-24 18:03:11,733 - __main__ - INFO - player moved from (4, 7) to (4, 8)
+2023-01-24 18:03:12,210 - __main__ - INFO - player moved from (4, 8) to (4, 9)
+2023-01-24 18:03:12,649 - __main__ - INFO - player moved from (4, 9) to (5, 9)
+2023-01-24 18:03:14,130 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:14,130 - __main__ - INFO - player took 7.4 damage
+2023-01-24 18:03:15,113 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:15,113 - __main__ - INFO - player took 6.6 damage
+2023-01-24 18:03:15,944 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:15,944 - __main__ - INFO - player took 7.4 damage
+2023-01-24 18:03:16,699 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:16,699 - __main__ - INFO - player took 6.3 damage
+2023-01-24 18:03:17,443 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:17,443 - __main__ - INFO - player took 7.2 damage
+2023-01-24 18:03:18,180 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:18,180 - __main__ - INFO - player took 1.1 damage
+2023-01-24 18:03:18,952 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:18,952 - __main__ - INFO - player took 3.6 damage
+2023-01-24 18:03:20,304 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:20,304 - __main__ - INFO - player took 4.9 damage
+2023-01-24 18:03:20,305 - __main__ - INFO - player defeated the monster
+2023-01-24 18:03:22,148 - __main__ - INFO - player moved from (5, 9) to (6, 9)
+2023-01-24 18:03:22,657 - __main__ - INFO - player moved from (6, 9) to (7, 9)
+2023-01-24 18:03:24,523 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:24,523 - __main__ - INFO - player took 2.9 damage
+2023-01-24 18:03:25,261 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:25,262 - __main__ - INFO - player took 4.9 damage
+2023-01-24 18:03:26,062 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:26,062 - __main__ - INFO - player took 5.1 damage
+2023-01-24 18:03:26,888 - __main__ - INFO - player used sword to attack the monster
+2023-01-24 18:03:26,888 - __main__ - INFO - player took 2.3 damage
+2023-01-24 18:03:26,888 - __main__ - INFO - player defeated the monster
+2023-01-24 18:03:28,517 - __main__ - INFO - player moved from (7, 9) to (8, 9)
+2023-01-24 18:03:29,208 - __main__ - INFO - player moved from (8, 9) to (9, 9)
+2023-01-24 18:04:10,670 - __main__ - INFO - player bought ['greater health potion', 24]
+2023-01-24 18:04:21,974 - __main__ - INFO - player restored 46 health
+2023-01-24 18:04:31,465 - __main__ - INFO - player restored 5 health
+2023-01-24 18:04:32,316 - __main__ - INFO - player restored 5 health
+2023-01-24 18:04:32,910 - __main__ - INFO - player restored 10 health
+2023-01-24 18:04:34,323 - __main__ - INFO - player restored 5 health
+2023-01-24 18:04:35,064 - __main__ - INFO - player restored 5 health
+2023-01-25 10:49:37,074 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 10:49:37,743 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 10:49:38,432 - __main__ - INFO - player moved from (0, 2) to (1, 2)
+2023-01-25 10:51:01,730 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 10:51:02,200 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 10:51:02,647 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 10:51:13,153 - __main__ - INFO - player moved from (0, 3) to (1, 3)
+2023-01-25 10:51:13,641 - __main__ - INFO - player moved from (1, 3) to (2, 3)
+2023-01-25 10:51:14,658 - __main__ - INFO - player moved from (2, 3) to (2, 4)
+2023-01-25 10:51:15,229 - __main__ - INFO - player moved from (2, 4) to (3, 4)
+2023-01-25 10:51:15,647 - __main__ - INFO - player moved from (3, 4) to (3, 5)
+2023-01-25 10:51:16,320 - __main__ - INFO - player moved from (3, 5) to (3, 6)
+2023-01-25 11:00:26,342 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 11:00:26,792 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 11:00:27,205 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 11:00:27,612 - __main__ - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 11:00:28,072 - __main__ - INFO - player moved from (0, 4) to (1, 4)
+2023-01-25 11:00:28,492 - __main__ - INFO - player moved from (1, 4) to (2, 4)
+2023-01-25 11:00:37,797 - __main__ - INFO - player moved from (2, 4) to (2, 5)
+2023-01-25 11:00:38,116 - __main__ - INFO - player moved from (2, 5) to (2, 6)
+2023-01-25 11:00:42,006 - __main__ - INFO - player moved from (2, 6) to (1, 6)
+2023-01-25 11:00:53,881 - __main__ - INFO - player moved from (1, 6) to (1, 7)
+2023-01-25 11:00:57,562 - __main__ - INFO - player took 5.2 damage
+2023-01-25 11:01:00,145 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:01:00,145 - __main__ - INFO - player took 8.2 damage
+2023-01-25 11:01:00,952 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:01:00,953 - __main__ - INFO - player took 6.9 damage
+2023-01-25 11:01:01,726 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:01:01,726 - __main__ - INFO - player took 8.2 damage
+2023-01-25 11:01:02,458 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:01:02,458 - __main__ - INFO - player took 4.4 damage
+2023-01-25 11:01:03,203 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:01:03,204 - __main__ - INFO - player took 4.7 damage
+2023-01-25 11:01:03,971 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:01:03,971 - __main__ - INFO - player took 6.9 damage
+2023-01-25 11:01:04,719 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:01:04,719 - __main__ - INFO - player took 9.2 damage
+2023-01-25 11:01:05,527 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:01:05,527 - __main__ - INFO - player took 4.5 damage
+2023-01-25 11:01:05,528 - __main__ - INFO - player defeated the monster
+2023-01-25 11:04:47,793 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 11:04:48,563 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 11:04:49,176 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 11:04:49,660 - __main__ - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 11:04:50,119 - __main__ - INFO - player moved from (0, 4) to (0, 5)
+2023-01-25 11:04:50,575 - __main__ - INFO - player moved from (0, 5) to (0, 6)
+2023-01-25 11:04:52,412 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:04:52,412 - __main__ - INFO - player took 2.4 damage
+2023-01-25 11:04:53,375 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:04:53,375 - __main__ - INFO - player took 1.3 damage
+2023-01-25 11:04:54,167 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:04:54,167 - __main__ - INFO - player took 8.2 damage
+2023-01-25 11:04:55,441 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:04:55,441 - __main__ - INFO - player took 9.5 damage
+2023-01-25 11:04:55,442 - __main__ - INFO - player defeated the monster
+2023-01-25 11:05:42,118 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 11:05:42,407 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 11:05:42,697 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 11:05:42,978 - __main__ - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 11:05:43,237 - __main__ - INFO - player moved from (0, 4) to (0, 5)
+2023-01-25 11:13:52,013 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 11:13:52,292 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 11:13:52,515 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 11:16:29,703 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 11:16:30,153 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 11:16:30,649 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 11:16:38,815 - __main__ - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 11:16:39,158 - __main__ - INFO - player moved from (0, 4) to (0, 5)
+2023-01-25 11:17:23,327 - __main__ - INFO - player moved from (0, 5) to (0, 5)
+2023-01-25 11:17:38,915 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 11:17:39,504 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 11:19:32,020 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 11:19:32,611 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 11:19:33,257 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 11:19:46,360 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:19:46,360 - __main__ - INFO - player took 1.1 damage
+2023-01-25 11:19:47,206 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:19:47,207 - __main__ - INFO - player took 5.7 damage
+2023-01-25 11:19:48,052 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:19:48,052 - __main__ - INFO - player took 8.7 damage
+2023-01-25 11:19:48,850 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 11:19:48,850 - __main__ - INFO - player took 2.7 damage
+2023-01-25 11:19:48,851 - __main__ - INFO - player defeated the monster
+2023-01-25 11:19:52,605 - __main__ - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 11:23:16,112 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 11:23:16,438 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 11:23:16,760 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 12:32:24,749 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 12:32:26,007 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 12:32:26,542 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 12:32:27,082 - __main__ - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 12:32:27,567 - __main__ - INFO - player moved from (0, 4) to (0, 5)
+2023-01-25 12:32:28,064 - __main__ - INFO - player moved from (0, 5) to (1, 5)
+2023-01-25 12:48:06,843 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 12:48:07,589 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 12:48:08,298 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 12:48:08,887 - __main__ - INFO - player moved from (0, 3) to (1, 3)
+2023-01-25 12:48:09,295 - __main__ - INFO - player moved from (1, 3) to (1, 4)
+2023-01-25 12:48:09,685 - __main__ - INFO - player moved from (1, 4) to (1, 5)
+2023-01-25 12:48:10,085 - __main__ - INFO - player moved from (1, 5) to (1, 6)
+2023-01-25 12:48:10,513 - __main__ - INFO - player moved from (1, 6) to (1, 7)
+2023-01-25 12:48:10,929 - __main__ - INFO - player moved from (1, 7) to (1, 8)
+2023-01-25 12:48:11,326 - __main__ - INFO - player moved from (1, 8) to (1, 9)
+2023-01-25 12:49:04,192 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 12:49:04,920 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 12:49:05,497 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 12:49:06,058 - __main__ - INFO - player moved from (0, 3) to (1, 3)
+2023-01-25 12:49:06,573 - __main__ - INFO - player moved from (1, 3) to (1, 4)
+2023-01-25 12:49:07,079 - __main__ - INFO - player moved from (1, 3) to (1, 4)
+2023-01-25 12:49:07,541 - __main__ - INFO - player moved from (1, 3) to (1, 4)
+2023-01-25 12:49:08,076 - __main__ - INFO - player moved from (1, 3) to (1, 4)
+2023-01-25 12:50:12,025 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 12:50:15,014 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 12:50:16,190 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 12:50:16,908 - __main__ - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 12:50:18,291 - __main__ - INFO - player moved from (0, 4) to (0, 3)
+2023-01-25 12:50:18,686 - __main__ - INFO - player moved from (0, 3) to (0, 2)
+2023-01-25 12:50:19,539 - __main__ - INFO - player moved from (0, 2) to (0, 1)
+2023-01-25 12:50:20,505 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 12:50:21,128 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 12:50:21,922 - __main__ - INFO - player moved from (0, 3) to (0, 2)
+2023-01-25 12:50:22,329 - __main__ - INFO - player moved from (0, 2) to (0, 1)
+2023-01-25 12:50:22,915 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 12:50:23,210 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 12:50:23,919 - __main__ - INFO - player moved from (0, 3) to (0, 2)
+2023-01-25 12:50:24,193 - __main__ - INFO - player moved from (0, 2) to (0, 1)
+2023-01-25 12:51:16,170 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 12:51:16,881 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 12:51:17,501 - __main__ - INFO - player moved from (0, 2) to (1, 2)
+2023-01-25 12:51:18,071 - __main__ - INFO - player moved from (1, 2) to (2, 2)
+2023-01-25 12:51:19,178 - __main__ - INFO - player moved from (1, 2) to (2, 2)
+2023-01-25 12:51:20,016 - __main__ - INFO - player moved from (1, 2) to (1, 3)
+2023-01-25 12:51:20,620 - __main__ - INFO - player moved from (1, 3) to (1, 4)
+2023-01-25 13:08:31,507 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 13:08:32,291 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 13:08:33,015 - __main__ - INFO - player moved from (0, 2) to (1, 2)
+2023-01-25 13:08:33,647 - __main__ - INFO - player moved from (0, 2) to (1, 2)
+2023-01-25 13:08:34,103 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 13:08:34,510 - __main__ - INFO - player moved from (0, 3) to (1, 3)
+2023-01-25 13:08:35,070 - __main__ - INFO - player moved from (1, 3) to (2, 3)
+2023-01-25 13:08:57,572 - __main__ - INFO - player moved from (2, 3) to (2, 4)
+2023-01-25 13:08:58,082 - __main__ - INFO - player moved from (2, 4) to (2, 5)
+2023-01-25 13:08:58,671 - __main__ - INFO - player moved from (2, 5) to (2, 6)
+2023-01-25 13:10:14,019 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 13:10:14,703 - __main__ - INFO - player moved from (0, 1) to (1, 1)
+2023-01-25 13:10:15,357 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 13:10:15,848 - __main__ - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 13:10:16,367 - __main__ - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 13:10:16,838 - __main__ - INFO - player moved from (0, 4) to (0, 5)
+2023-01-25 13:10:17,350 - __main__ - INFO - player moved from (0, 5) to (0, 6)
+2023-01-25 13:10:17,811 - __main__ - INFO - player moved from (0, 6) to (1, 6)
+2023-01-25 13:10:18,287 - __main__ - INFO - player moved from (1, 6) to (2, 6)
+2023-01-25 13:10:19,206 - __main__ - INFO - player moved from (2, 6) to (2, 5)
+2023-01-25 13:10:19,961 - __main__ - INFO - player moved from (2, 5) to (3, 5)
+2023-01-25 13:11:01,246 - __main__ - INFO - player got 4 gold while scavenging
+2023-01-25 13:11:01,791 - __main__ - INFO - player got 3 gold while scavenging
+2023-01-25 13:11:02,778 - __main__ - INFO - player got 1 gold while scavenging
+2023-01-25 13:11:03,243 - __main__ - INFO - player got 1 gold while scavenging
+2023-01-25 13:11:03,714 - __main__ - INFO - player got 4 gold while scavenging
+2023-01-25 13:11:04,154 - __main__ - INFO - player got 1 gold while scavenging
+2023-01-25 13:11:06,166 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:06,167 - __main__ - INFO - player took 9.5 damage
+2023-01-25 13:11:07,149 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:07,150 - __main__ - INFO - player took 2.4 damage
+2023-01-25 13:11:08,110 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:08,111 - __main__ - INFO - player took 5.5 damage
+2023-01-25 13:11:08,919 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:08,919 - __main__ - INFO - player took 2.6 damage
+2023-01-25 13:11:08,920 - __main__ - INFO - player defeated the monster
+2023-01-25 13:11:12,617 - __main__ - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 13:11:13,212 - __main__ - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 13:11:13,643 - __main__ - INFO - player moved from (0, 2) to (1, 2)
+2023-01-25 13:11:14,087 - __main__ - INFO - player moved from (1, 2) to (2, 2)
+2023-01-25 13:11:14,476 - __main__ - INFO - player moved from (2, 2) to (3, 2)
+2023-01-25 13:11:14,842 - __main__ - INFO - player moved from (3, 2) to (3, 3)
+2023-01-25 13:11:15,199 - __main__ - INFO - player moved from (3, 3) to (3, 4)
+2023-01-25 13:11:15,588 - __main__ - INFO - player moved from (3, 4) to (3, 5)
+2023-01-25 13:11:15,953 - __main__ - INFO - player moved from (3, 5) to (3, 6)
+2023-01-25 13:11:17,619 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:17,619 - __main__ - INFO - player took 7.5 damage
+2023-01-25 13:11:18,472 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:18,473 - __main__ - INFO - player took 4.7 damage
+2023-01-25 13:11:19,226 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:19,226 - __main__ - INFO - player took 4.4 damage
+2023-01-25 13:11:19,950 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:19,950 - __main__ - INFO - player took 2.9 damage
+2023-01-25 13:11:19,951 - __main__ - INFO - player defeated the monster
+2023-01-25 13:11:21,071 - __main__ - INFO - player moved from (3, 6) to (3, 7)
+2023-01-25 13:11:21,398 - __main__ - INFO - player moved from (3, 7) to (3, 8)
+2023-01-25 13:11:21,724 - __main__ - INFO - player moved from (3, 8) to (3, 9)
+2023-01-25 13:11:23,611 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:23,612 - __main__ - INFO - player took 5.1 damage
+2023-01-25 13:11:24,344 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:24,344 - __main__ - INFO - player took 9.7 damage
+2023-01-25 13:11:25,050 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:25,051 - __main__ - INFO - player took 4.8 damage
+2023-01-25 13:11:25,766 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:25,766 - __main__ - INFO - player took 9.4 damage
+2023-01-25 13:11:25,767 - __main__ - INFO - player defeated the monster
+2023-01-25 13:11:26,647 - __main__ - INFO - player moved from (3, 9) to (4, 9)
+2023-01-25 13:11:26,892 - __main__ - INFO - player moved from (4, 9) to (5, 9)
+2023-01-25 13:11:27,175 - __main__ - INFO - player moved from (5, 9) to (6, 9)
+2023-01-25 13:11:27,470 - __main__ - INFO - player moved from (6, 9) to (7, 9)
+2023-01-25 13:11:27,851 - __main__ - INFO - player moved from (7, 9) to (8, 9)
+2023-01-25 13:11:29,252 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:29,252 - __main__ - INFO - player took 6.5 damage
+2023-01-25 13:11:29,978 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:29,979 - __main__ - INFO - player took 5.2 damage
+2023-01-25 13:11:31,460 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:31,461 - __main__ - INFO - player took 4.4 damage
+2023-01-25 13:11:32,739 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:11:32,740 - __main__ - INFO - player took 2.6 damage
+2023-01-25 13:11:32,740 - __main__ - INFO - player defeated the monster
+2023-01-25 13:11:33,989 - __main__ - INFO - player moved from (8, 9) to (9, 9)
+2023-01-25 13:11:39,907 - __main__ - INFO - player bought ['greater health potion', 24]
+2023-01-25 13:12:14,194 - __main__ - INFO - player moved from (0, 0) to (1, 0)
+2023-01-25 13:12:14,578 - __main__ - INFO - player moved from (1, 0) to (2, 0)
+2023-01-25 13:12:14,996 - __main__ - INFO - player moved from (2, 0) to (3, 0)
+2023-01-25 13:12:15,366 - __main__ - INFO - player moved from (3, 0) to (4, 0)
+2023-01-25 13:12:15,769 - __main__ - INFO - player moved from (4, 0) to (4, 1)
+2023-01-25 13:12:16,167 - __main__ - INFO - player moved from (4, 1) to (4, 2)
+2023-01-25 13:12:16,583 - __main__ - INFO - player moved from (4, 2) to (4, 3)
+2023-01-25 13:12:16,975 - __main__ - INFO - player moved from (4, 3) to (4, 4)
+2023-01-25 13:12:17,371 - __main__ - INFO - player moved from (4, 4) to (4, 5)
+2023-01-25 13:12:17,758 - __main__ - INFO - player moved from (4, 5) to (4, 6)
+2023-01-25 13:12:19,918 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:19,919 - __main__ - INFO - player took 2.9 damage
+2023-01-25 13:12:20,820 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:20,820 - __main__ - INFO - player took 3.6 damage
+2023-01-25 13:12:21,609 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:21,609 - __main__ - INFO - player took 8.5 damage
+2023-01-25 13:12:21,610 - __main__ - INFO - player defeated the monster
+2023-01-25 13:12:23,119 - __main__ - INFO - player moved from (4, 6) to (4, 7)
+2023-01-25 13:12:23,560 - __main__ - INFO - player took 7.5 damage
+2023-01-25 13:12:25,039 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:25,039 - __main__ - INFO - player took 1.3 damage
+2023-01-25 13:12:25,762 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:25,762 - __main__ - INFO - player took 5.9 damage
+2023-01-25 13:12:26,485 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:26,485 - __main__ - INFO - player took 6.4 damage
+2023-01-25 13:12:27,260 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:27,260 - __main__ - INFO - player took 1.5 damage
+2023-01-25 13:12:27,260 - __main__ - INFO - player defeated the monster
+2023-01-25 13:12:27,896 - __main__ - INFO - player moved from (4, 7) to (4, 8)
+2023-01-25 13:12:28,347 - __main__ - INFO - player moved from (4, 8) to (4, 9)
+2023-01-25 13:12:28,795 - __main__ - INFO - player moved from (4, 9) to (5, 9)
+2023-01-25 13:12:29,225 - __main__ - INFO - player moved from (5, 9) to (6, 9)
+2023-01-25 13:12:29,645 - __main__ - INFO - player moved from (6, 9) to (6, 10)
+2023-01-25 13:12:30,109 - __main__ - INFO - player moved from (6, 10) to (6, 11)
+2023-01-25 13:12:30,802 - __main__ - INFO - player moved from (6, 11) to (6, 12)
+2023-01-25 13:12:31,275 - __main__ - INFO - player moved from (6, 12) to (6, 13)
+2023-01-25 13:12:31,744 - __main__ - INFO - player moved from (6, 13) to (6, 14)
+2023-01-25 13:12:32,200 - __main__ - INFO - player moved from (6, 14) to (6, 15)
+2023-01-25 13:12:32,645 - __main__ - INFO - player moved from (6, 15) to (6, 16)
+2023-01-25 13:12:33,098 - __main__ - INFO - player moved from (6, 16) to (6, 17)
+2023-01-25 13:12:33,566 - __main__ - INFO - player moved from (6, 17) to (6, 18)
+2023-01-25 13:12:34,021 - __main__ - INFO - player moved from (6, 18) to (7, 18)
+2023-01-25 13:12:34,506 - __main__ - INFO - player moved from (7, 18) to (8, 18)
+2023-01-25 13:12:34,949 - __main__ - INFO - player moved from (8, 18) to (9, 18)
+2023-01-25 13:12:35,416 - __main__ - INFO - player moved from (9, 18) to (10, 18)
+2023-01-25 13:12:35,891 - __main__ - INFO - player moved from (10, 18) to (11, 18)
+2023-01-25 13:12:36,356 - __main__ - INFO - player moved from (11, 18) to (12, 18)
+2023-01-25 13:12:37,851 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:37,852 - __main__ - INFO - player took 4.2 damage
+2023-01-25 13:12:38,596 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:38,597 - __main__ - INFO - player took 1.9 damage
+2023-01-25 13:12:39,388 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:39,388 - __main__ - INFO - player took 9.6 damage
+2023-01-25 13:12:40,194 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:12:40,194 - __main__ - INFO - player took 1.3 damage
+2023-01-25 13:12:40,194 - __main__ - INFO - player defeated the monster
+2023-01-25 13:12:40,910 - __main__ - INFO - player moved from (12, 18) to (13, 18)
+2023-01-25 13:12:41,299 - __main__ - INFO - player moved from (13, 18) to (14, 18)
+2023-01-25 13:12:41,749 - __main__ - INFO - player moved from (14, 18) to (15, 18)
+2023-01-25 13:12:42,315 - __main__ - INFO - player moved from (15, 18) to (16, 18)
+2023-01-25 13:12:42,726 - __main__ - INFO - player moved from (16, 18) to (17, 18)
+2023-01-25 13:12:43,170 - __main__ - INFO - player moved from (17, 18) to (18, 18)
+2023-01-25 13:12:46,192 - __main__ - INFO - player moved from (18, 18) to (18, 17)
+2023-01-25 13:15:08,168 - __main__ - INFO - player moved from (18, 17) to (18, 18)
+2023-01-25 13:15:10,416 - __main__ - INFO - player moved from (18, 18) to (17, 18)
+2023-01-25 13:15:12,628 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:15:12,628 - __main__ - INFO - player took 4.5 damage
+2023-01-25 13:15:13,532 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:15:13,532 - __main__ - INFO - player took 7.9 damage
+2023-01-25 13:15:14,350 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:15:14,350 - __main__ - INFO - player took 4.6 damage
+2023-01-25 13:15:15,116 - __main__ - INFO - player used sword to attack the monster
+2023-01-25 13:15:15,116 - __main__ - INFO - player took 3.7 damage
+2023-01-25 13:15:15,117 - __main__ - INFO - player defeated the monster
+2023-01-25 13:18:13,090 - __main__ - INFO - player moved from (17, 18) to (17, 18)
+2023-01-25 13:18:26,161 - game - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 13:18:26,742 - game - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 13:18:27,339 - game - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 13:18:27,755 - game - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 13:18:28,495 - game - INFO - player moved from (0, 3) to (1, 3)
+2023-01-25 13:18:28,968 - game - INFO - player moved from (1, 3) to (2, 3)
+2023-01-25 13:18:29,379 - game - INFO - player moved from (2, 3) to (3, 3)
+2023-01-25 13:18:29,710 - game - INFO - player moved from (3, 3) to (4, 3)
+2023-01-25 13:18:30,254 - game - INFO - player moved from (4, 3) to (4, 4)
+2023-01-25 13:18:30,559 - game - INFO - player moved from (4, 4) to (4, 5)
+2023-01-25 13:18:30,845 - game - INFO - player moved from (4, 5) to (4, 6)
+2023-01-25 13:18:31,243 - game - INFO - player moved from (4, 6) to (5, 6)
+2023-01-25 13:18:31,546 - game - INFO - player moved from (5, 6) to (6, 6)
+2023-01-25 13:18:31,855 - game - INFO - player moved from (6, 6) to (7, 6)
+2023-01-25 13:18:32,150 - game - INFO - player moved from (7, 6) to (8, 6)
+2023-01-25 13:18:32,473 - game - INFO - player moved from (8, 6) to (9, 6)
+2023-01-25 13:18:32,838 - game - INFO - player moved from (9, 6) to (9, 7)
+2023-01-25 13:18:33,193 - game - INFO - player moved from (9, 7) to (9, 8)
+2023-01-25 13:18:34,489 - game - INFO - player moved from (9, 8) to (8, 8)
+2023-01-25 13:18:34,771 - game - INFO - player took 8.7 damage
+2023-01-25 13:18:36,704 - game - INFO - player used sword to attack the monster
+2023-01-25 13:18:36,705 - game - INFO - player took 6.2 damage
+2023-01-25 13:18:37,541 - game - INFO - player used sword to attack the monster
+2023-01-25 13:18:37,541 - game - INFO - player took 8.2 damage
+2023-01-25 13:18:38,317 - game - INFO - player used sword to attack the monster
+2023-01-25 13:18:38,317 - game - INFO - player took 9.1 damage
+2023-01-25 13:18:38,318 - game - INFO - player defeated the monster
+2023-01-25 13:18:41,621 - game - INFO - player moved from (8, 8) to (9, 8)
+2023-01-25 13:18:43,328 - game - INFO - player used sword to attack the monster
+2023-01-25 13:18:43,328 - game - INFO - player took 2.9 damage
+2023-01-25 13:18:44,079 - game - INFO - player used sword to attack the monster
+2023-01-25 13:18:44,080 - game - INFO - player took 5.9 damage
+2023-01-25 13:18:44,766 - game - INFO - player used sword to attack the monster
+2023-01-25 13:18:44,767 - game - INFO - player took 1.2 damage
+2023-01-25 13:18:44,767 - game - INFO - player defeated the monster
+2023-01-25 13:18:45,909 - game - INFO - player moved from (9, 8) to (9, 9)
+2023-01-25 13:23:55,053 - game - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 13:24:01,777 - game - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 13:24:25,912 - game - INFO - player moved from (0, 2) to (0, 1)
+2023-01-25 13:24:26,511 - game - INFO - player moved from (0, 1) to (0, 0)
+2023-01-25 13:25:23,604 - game - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 13:25:24,034 - game - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 13:25:24,459 - game - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 13:25:24,872 - game - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 13:25:25,270 - game - INFO - player moved from (0, 4) to (0, 5)
+2023-01-25 13:25:25,669 - game - INFO - player moved from (0, 5) to (0, 6)
+2023-01-25 13:25:26,732 - game - INFO - player moved from (0, 6) to (1, 6)
+2023-01-25 13:25:28,307 - game - INFO - player moved from (1, 6) to (2, 6)
+2023-01-25 13:25:29,239 - game - INFO - player moved from (2, 6) to (2, 5)
+2023-01-25 13:25:29,826 - game - INFO - player moved from (2, 5) to (2, 4)
+2023-01-25 13:25:57,474 - game - INFO - player used sword to attack the monster
+2023-01-25 13:25:57,474 - game - INFO - player took 4.9 damage
+2023-01-25 13:26:06,691 - game - INFO - player used sword to attack the monster
+2023-01-25 13:26:06,691 - game - INFO - player took 1.6 damage
+2023-01-25 13:26:07,904 - game - INFO - player used sword to attack the monster
+2023-01-25 13:26:07,905 - game - INFO - player took 4.0 damage
+2023-01-25 13:26:10,007 - game - INFO - player used sword to attack the monster
+2023-01-25 13:26:10,007 - game - INFO - player took 1.6 damage
+2023-01-25 13:26:12,278 - game - INFO - player used sword to attack the monster
+2023-01-25 13:26:12,278 - game - INFO - player took 9.5 damage
+2023-01-25 13:26:14,897 - game - INFO - player used sword to attack the monster
+2023-01-25 13:26:14,897 - game - INFO - player took 3.3 damage
+2023-01-25 13:26:17,437 - game - INFO - player used sword to attack the monster
+2023-01-25 13:26:17,438 - game - INFO - player took 2.3 damage
+2023-01-25 13:26:18,486 - game - INFO - player used sword to attack the monster
+2023-01-25 13:26:18,486 - game - INFO - player took 9.4 damage
+2023-01-25 13:26:18,486 - game - INFO - player defeated the monster
+2023-01-25 13:26:49,286 - game - INFO - player moved from (2, 4) to (3, 4)
+2023-01-25 13:26:52,416 - game - INFO - player moved from (3, 4) to (4, 4)
+2023-01-25 13:26:54,800 - game - INFO - player moved from (4, 4) to (5, 4)
+2023-01-25 13:27:08,271 - game - INFO - player used sword to attack the monster
+2023-01-25 13:27:08,271 - game - INFO - player took 2.8 damage
+2023-01-25 13:27:09,336 - game - INFO - player used sword to attack the monster
+2023-01-25 13:27:09,337 - game - INFO - player took 9.4 damage
+2023-01-25 13:27:10,358 - game - INFO - player used sword to attack the monster
+2023-01-25 13:27:10,359 - game - INFO - player took 1.9 damage
+2023-01-25 13:27:12,094 - game - INFO - player used sword to attack the monster
+2023-01-25 13:27:12,094 - game - INFO - player took 3.1 damage
+2023-01-25 13:27:12,095 - game - INFO - player defeated the monster
+2023-01-25 13:27:38,506 - game - INFO - player restored 5 health
+2023-01-25 13:27:42,672 - game - INFO - player restored 5 health
+2023-01-25 13:27:45,116 - game - INFO - player restored 5 health
+2023-01-25 13:27:49,332 - game - INFO - player restored 5 health
+2023-01-25 13:27:50,582 - game - INFO - player restored 10 health
+2023-01-25 13:27:55,255 - game - INFO - player restored 5 health
+2023-01-25 13:28:04,468 - game - INFO - player used sword to attack the monster
+2023-01-25 13:28:04,468 - game - INFO - player took 8.5 damage
+2023-01-25 13:28:05,512 - game - INFO - player used sword to attack the monster
+2023-01-25 13:28:05,513 - game - INFO - player took 3.0 damage
+2023-01-25 13:28:06,716 - game - INFO - player used sword to attack the monster
+2023-01-25 13:28:06,716 - game - INFO - player took 8.7 damage
+2023-01-25 13:28:08,530 - game - INFO - player used sword to attack the monster
+2023-01-25 13:28:08,530 - game - INFO - player took 2.6 damage
+2023-01-25 13:28:08,531 - game - INFO - player defeated the monster
+2023-01-25 13:28:30,822 - game - INFO - player restored 18 health
+2023-01-25 13:28:42,827 - game - INFO - player equipped old knife 
+2023-01-25 15:03:14,058 - game - INFO - player moved from (0, 0) to (0, 1)
+2023-01-25 15:03:14,940 - game - INFO - player moved from (0, 1) to (0, 2)
+2023-01-25 15:03:15,414 - game - INFO - player moved from (0, 2) to (0, 3)
+2023-01-25 15:03:15,802 - game - INFO - player moved from (0, 3) to (0, 4)
+2023-01-25 15:03:16,178 - game - INFO - player moved from (0, 4) to (0, 5)
+2023-01-25 15:03:16,595 - game - INFO - player moved from (0, 5) to (0, 6)
+2023-01-25 15:03:17,007 - game - INFO - player took 7.8 damage
+2023-01-25 15:03:18,749 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:18,750 - game - INFO - player took 6.8 damage
+2023-01-25 15:03:19,557 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:19,557 - game - INFO - player took 8.8 damage
+2023-01-25 15:03:20,401 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:20,402 - game - INFO - player took 2.0 damage
+2023-01-25 15:03:21,244 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:21,245 - game - INFO - player took 2.4 damage
+2023-01-25 15:03:21,245 - game - INFO - player defeated the monster
+2023-01-25 15:03:22,647 - game - INFO - player moved from (0, 6) to (0, 7)
+2023-01-25 15:03:23,025 - game - INFO - player moved from (0, 7) to (0, 8)
+2023-01-25 15:03:23,443 - game - INFO - player moved from (0, 8) to (0, 9)
+2023-01-25 15:03:24,924 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:24,924 - game - INFO - player took 8.2 damage
+2023-01-25 15:03:25,653 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:25,653 - game - INFO - player took 2.8 damage
+2023-01-25 15:03:26,359 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:26,359 - game - INFO - player took 4.8 damage
+2023-01-25 15:03:27,070 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:27,070 - game - INFO - player took 5.4 damage
+2023-01-25 15:03:27,071 - game - INFO - player defeated the monster
+2023-01-25 15:03:28,560 - game - INFO - player moved from (0, 9) to (0, 10)
+2023-01-25 15:03:28,879 - game - INFO - player moved from (0, 10) to (0, 11)
+2023-01-25 15:03:29,245 - game - INFO - player moved from (0, 11) to (0, 12)
+2023-01-25 15:03:29,632 - game - INFO - player took 4.9 damage
+2023-01-25 15:03:31,105 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:31,105 - game - INFO - player took 7.5 damage
+2023-01-25 15:03:31,837 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:31,838 - game - INFO - player took 7.4 damage
+2023-01-25 15:03:32,565 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:32,566 - game - INFO - player took 9.6 damage
+2023-01-25 15:03:33,553 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:33,553 - game - INFO - player took 8.7 damage
+2023-01-25 15:03:34,882 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:34,883 - game - INFO - player took 3.4 damage
+2023-01-25 15:03:35,608 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:35,608 - game - INFO - player took 4.4 damage
+2023-01-25 15:03:36,353 - game - INFO - player used sword to attack the monster
+2023-01-25 15:03:36,353 - game - INFO - player took 8.8 damage
+2023-01-25 15:05:14,160 - game - INFO - player moved from (0, 0) to (1, 0)
+2023-01-25 15:05:14,751 - game - INFO - player moved from (1, 0) to (2, 0)
+2023-01-25 15:05:15,204 - game - INFO - player moved from (2, 0) to (3, 0)
+2023-01-25 15:05:15,679 - game - INFO - player moved from (3, 0) to (4, 0)
+2023-01-25 15:05:16,158 - game - INFO - player moved from (4, 0) to (5, 0)
+2023-01-25 15:05:16,656 - game - INFO - player moved from (5, 0) to (6, 0)
+2023-01-25 15:05:17,149 - game - INFO - player moved from (6, 0) to (7, 0)
+2023-01-25 15:05:19,333 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:19,334 - game - INFO - player took 3.4 damage
+2023-01-25 15:05:20,320 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:20,321 - game - INFO - player took 3.2 damage
+2023-01-25 15:05:21,172 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:21,173 - game - INFO - player took 1.5 damage
+2023-01-25 15:05:21,979 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:21,979 - game - INFO - player took 2.2 damage
+2023-01-25 15:05:21,980 - game - INFO - player defeated the monster
+2023-01-25 15:05:23,389 - game - INFO - player moved from (7, 0) to (8, 0)
+2023-01-25 15:05:24,271 - game - INFO - player moved from (8, 0) to (8, 1)
+2023-01-25 15:05:24,735 - game - INFO - player moved from (8, 1) to (8, 2)
+2023-01-25 15:05:25,182 - game - INFO - player moved from (8, 2) to (8, 3)
+2023-01-25 15:05:25,621 - game - INFO - player moved from (8, 3) to (8, 4)
+2023-01-25 15:05:26,089 - game - INFO - player moved from (8, 4) to (8, 5)
+2023-01-25 15:05:26,573 - game - INFO - player moved from (8, 5) to (8, 6)
+2023-01-25 15:05:27,102 - game - INFO - player moved from (8, 6) to (9, 6)
+2023-01-25 15:05:28,740 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:28,740 - game - INFO - player took 6.8 damage
+2023-01-25 15:05:29,510 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:29,510 - game - INFO - player took 7.0 damage
+2023-01-25 15:05:30,277 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:30,277 - game - INFO - player took 8.8 damage
+2023-01-25 15:05:30,278 - game - INFO - player defeated the monster
+2023-01-25 15:05:33,110 - game - INFO - player moved from (9, 6) to (10, 6)
+2023-01-25 15:05:33,545 - game - INFO - player moved from (10, 6) to (11, 6)
+2023-01-25 15:05:34,025 - game - INFO - player moved from (11, 6) to (12, 6)
+2023-01-25 15:05:34,448 - game - INFO - player moved from (12, 6) to (13, 6)
+2023-01-25 15:05:34,885 - game - INFO - player moved from (13, 6) to (14, 6)
+2023-01-25 15:05:35,363 - game - INFO - player moved from (14, 6) to (15, 6)
+2023-01-25 15:05:35,826 - game - INFO - player moved from (15, 6) to (16, 6)
+2023-01-25 15:05:36,274 - game - INFO - player moved from (16, 6) to (17, 6)
+2023-01-25 15:05:36,701 - game - INFO - player moved from (17, 6) to (18, 6)
+2023-01-25 15:05:37,599 - game - INFO - player moved from (18, 6) to (18, 7)
+2023-01-25 15:05:38,050 - game - INFO - player moved from (18, 7) to (18, 8)
+2023-01-25 15:05:38,516 - game - INFO - player moved from (18, 8) to (18, 9)
+2023-01-25 15:05:38,954 - game - INFO - player moved from (18, 9) to (18, 10)
+2023-01-25 15:05:39,406 - game - INFO - player moved from (18, 10) to (18, 11)
+2023-01-25 15:05:39,850 - game - INFO - player moved from (18, 11) to (18, 12)
+2023-01-25 15:05:40,317 - game - INFO - player moved from (18, 12) to (18, 13)
+2023-01-25 15:05:40,770 - game - INFO - player moved from (18, 13) to (18, 14)
+2023-01-25 15:05:43,426 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:43,426 - game - INFO - player took 5.6 damage
+2023-01-25 15:05:44,385 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:44,385 - game - INFO - player took 8.3 damage
+2023-01-25 15:05:45,381 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:45,382 - game - INFO - player took 5.8 damage
+2023-01-25 15:05:45,382 - game - INFO - player defeated the monster
+2023-01-25 15:05:46,674 - game - INFO - player moved from (18, 14) to (18, 15)
+2023-01-25 15:05:47,164 - game - INFO - player moved from (18, 15) to (18, 16)
+2023-01-25 15:05:47,665 - game - INFO - player moved from (18, 16) to (18, 17)
+2023-01-25 15:05:49,607 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:49,607 - game - INFO - player took 3.0 damage
+2023-01-25 15:05:50,492 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:50,492 - game - INFO - player took 6.5 damage
+2023-01-25 15:05:51,333 - game - INFO - player used sword to attack the monster
+2023-01-25 15:05:51,334 - game - INFO - player took 2.0 damage
+2023-01-25 15:05:51,334 - game - INFO - player defeated the monster
+2023-01-25 15:05:53,285 - game - INFO - player moved from (18, 17) to (18, 18)
+2023-01-25 15:05:53,286 - game - INFO - player entered the door and finished the game
+gameLogger-INFOplayer moved from (0, 0) to (0, 1)
+gameLogger-INFOplayer moved from (0, 1) to (0, 2)
+gameLogger-INFOplayer moved from (0, 2) to (1, 2)
+gameLogger-INFOplayer moved from (1, 2) to (2, 2)
+gameLogger-INFOplayer moved from (2, 2) to (2, 3)
+gameLogger-INFOplayer moved from (2, 3) to (2, 4)
+2023-01-25 16:48:27,392-gameLogger-INFO-player moved from (0, 0) to (0, 1)
+2023-01-25 16:48:27,868-gameLogger-INFO-player moved from (0, 1) to (0, 2)
+2023-01-25 16:48:28,203-gameLogger-INFO-player moved from (0, 2) to (0, 3)
+2023-01-25 16:48:28,479-gameLogger-INFO-player moved from (0, 3) to (0, 4)
+2023-01-25 16:48:29,109-gameLogger-INFO-player moved from (0, 4) to (1, 4)
+2023-01-25 16:48:29,475-gameLogger-INFO-player moved from (1, 4) to (2, 4)
+2023-01-25 16:48:29,870-gameLogger-INFO-player moved from (2, 4) to (2, 5)
+2023-01-25 16:48:30,159-gameLogger-INFO-player moved from (2, 5) to (2, 6)
+2023-01-25 16:56:37,662-gameLogger-INFO-player moved from (2, 6) to (2, 6)
+2023-01-25 16:59:42,694-gameLogger-INFO-player moved from (0, 0) to (0, 1)
+2023-01-25 16:59:43,041-gameLogger-INFO-player moved from (0, 1) to (0, 2)
+2023-01-25 16:59:43,308-gameLogger-INFO-player moved from (0, 2) to (0, 3)
+2023-01-25 16:59:43,590-gameLogger-INFO-player moved from (0, 3) to (0, 4)
+2023-01-25 16:59:43,862-gameLogger-INFO-player moved from (0, 4) to (0, 5)
+2023-01-25 16:59:44,154-gameLogger-INFO-player moved from (0, 5) to (0, 6)
+2023-01-25 17:31:05,047-gameLogger-INFO-player moved from (0, 0) to (0, 1)
+2023-01-25 17:31:05,047-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:05,770-gameLogger-INFO-player moved from (0, 1) to (0, 2)
+2023-01-25 17:31:05,770-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:06,197-gameLogger-INFO-player moved from (0, 2) to (0, 3)
+2023-01-25 17:31:06,197-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:06,655-gameLogger-INFO-player moved from (0, 3) to (1, 3)
+2023-01-25 17:31:06,655-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:07,057-gameLogger-INFO-player moved from (1, 3) to (2, 3)
+2023-01-25 17:31:07,057-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:07,448-gameLogger-INFO-player moved from (2, 3) to (3, 3)
+2023-01-25 17:31:07,449-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:07,907-gameLogger-INFO-player moved from (3, 3) to (4, 3)
+2023-01-25 17:31:07,907-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:08,372-gameLogger-INFO-player moved from (4, 3) to (4, 4)
+2023-01-25 17:31:08,372-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:08,838-gameLogger-INFO-player moved from (4, 4) to (5, 4)
+2023-01-25 17:31:08,838-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:09,300-gameLogger-INFO-player moved from (5, 4) to (5, 5)
+2023-01-25 17:31:09,300-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:11,282-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:11,283-gameLogger-INFO-player took 5.8 damage
+2023-01-25 17:31:12,405-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:12,405-gameLogger-INFO-player took 4.3 damage
+2023-01-25 17:31:13,272-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:13,272-gameLogger-INFO-player took 9.7 damage
+2023-01-25 17:31:13,272-gameLogger-INFO-player defeated the monster
+2023-01-25 17:31:17,811-gameLogger-INFO-player moved from (5, 5) to (5, 6)
+2023-01-25 17:31:17,811-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:18,184-gameLogger-INFO-player moved from (5, 6) to (5, 7)
+2023-01-25 17:31:18,184-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:18,791-gameLogger-INFO-player moved from (5, 7) to (6, 7)
+2023-01-25 17:31:18,791-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-25 17:31:20,577-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:20,577-gameLogger-INFO-player took 2.2 damage
+2023-01-25 17:31:21,393-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:21,393-gameLogger-INFO-player took 9.5 damage
+2023-01-25 17:31:22,184-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:22,185-gameLogger-INFO-player took 1.5 damage
+2023-01-25 17:31:22,965-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:22,966-gameLogger-INFO-player took 2.0 damage
+2023-01-25 17:31:22,967-gameLogger-INFO-player defeated the monster
+2023-01-25 17:31:26,932-gameLogger-INFO-player took 4.8 damage
+2023-01-25 17:31:28,961-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:28,961-gameLogger-INFO-player took 3.9 damage
+2023-01-25 17:31:29,806-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:29,806-gameLogger-INFO-player took 6.5 damage
+2023-01-25 17:31:30,588-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:30,588-gameLogger-INFO-player took 7.9 damage
+2023-01-25 17:31:30,589-gameLogger-INFO-player defeated the monster
+2023-01-25 17:31:31,788-gameLogger-INFO-player restored 5 health
+2023-01-25 17:31:34,639-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:34,640-gameLogger-INFO-player took 4.1 damage
+2023-01-25 17:31:35,406-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:35,406-gameLogger-INFO-player took 5.9 damage
+2023-01-25 17:31:36,133-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:36,133-gameLogger-INFO-player took 8.0 damage
+2023-01-25 17:31:36,921-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:36,921-gameLogger-INFO-player took 9.6 damage
+2023-01-25 17:31:36,921-gameLogger-INFO-player defeated the monster
+2023-01-25 17:31:37,804-gameLogger-INFO-player restored 5 health
+2023-01-25 17:31:38,648-gameLogger-INFO-player restored 5 health
+2023-01-25 17:31:39,288-gameLogger-INFO-player restored 5 health
+2023-01-25 17:31:39,875-gameLogger-INFO-player restored 10 health
+2023-01-25 17:31:41,117-gameLogger-INFO-player took 5.3 damage
+2023-01-25 17:31:42,768-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:42,769-gameLogger-INFO-player took 2.8 damage
+2023-01-25 17:31:43,513-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:43,514-gameLogger-INFO-player took 2.8 damage
+2023-01-25 17:31:44,210-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:44,210-gameLogger-INFO-player took 7.1 damage
+2023-01-25 17:31:44,925-gameLogger-INFO-player used sword to attack the monster
+2023-01-25 17:31:44,925-gameLogger-INFO-player took 6.2 damage
+2023-01-25 17:31:44,926-gameLogger-INFO-player defeated the monster
+2023-01-25 17:31:45,537-gameLogger-INFO-player restored 5 health
+2023-01-25 17:31:46,122-gameLogger-INFO-player restored 10 health
+2023-01-25 17:31:46,825-gameLogger-INFO-player restored 5 health
+2023-01-25 17:31:47,430-gameLogger-INFO-player took 4.4 damage
+2023-01-27 06:43:36,787-gameLogger-INFO-player moved from (0, 0) to (0, 1)
+2023-01-27 06:43:36,787-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:38,096-gameLogger-INFO-player moved from (0, 1) to (1, 1)
+2023-01-27 06:43:38,096-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:38,799-gameLogger-INFO-player moved from (1, 1) to (1, 2)
+2023-01-27 06:43:38,799-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:39,526-gameLogger-INFO-player moved from (1, 2) to (1, 3)
+2023-01-27 06:43:39,526-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:40,038-gameLogger-INFO-player moved from (1, 3) to (1, 4)
+2023-01-27 06:43:40,038-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:41,417-gameLogger-INFO-player moved from (1, 4) to (0, 4)
+2023-01-27 06:43:41,421-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:42,157-gameLogger-INFO-player moved from (0, 4) to (0, 5)
+2023-01-27 06:43:42,161-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:42,876-gameLogger-INFO-player moved from (0, 5) to (0, 6)
+2023-01-27 06:43:42,876-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:45,852-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:43:45,852-gameLogger-INFO-player took 5.3 damage
+2023-01-27 06:43:46,712-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:43:46,712-gameLogger-INFO-player took 5.9 damage
+2023-01-27 06:43:47,599-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:43:47,599-gameLogger-INFO-player took 1.8 damage
+2023-01-27 06:43:48,439-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:43:48,439-gameLogger-INFO-player took 2.2 damage
+2023-01-27 06:43:48,439-gameLogger-INFO-player defeated the monster
+2023-01-27 06:43:49,405-gameLogger-INFO-player moved from (0, 6) to (0, 7)
+2023-01-27 06:43:49,405-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:43:50,079-gameLogger-INFO-player moved from (0, 7) to (0, 8)
+2023-01-27 06:43:50,079-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:44:00,832-gameLogger-INFO-player moved from (0, 8) to (0, 9)
+2023-01-27 06:44:00,832-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:44:01,328-gameLogger-INFO-player moved from (0, 9) to (0, 10)
+2023-01-27 06:44:01,328-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:44:01,846-gameLogger-INFO-player moved from (0, 10) to (0, 11)
+2023-01-27 06:44:01,850-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:44:02,317-gameLogger-INFO-player moved from (0, 11) to (0, 12)
+2023-01-27 06:44:02,317-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:44:02,833-gameLogger-INFO-player moved from (0, 12) to (0, 13)
+2023-01-27 06:44:02,833-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:44:04,829-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:04,829-gameLogger-INFO-player took 4.6 damage
+2023-01-27 06:44:05,702-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:05,702-gameLogger-INFO-player took 6.8 damage
+2023-01-27 06:44:06,502-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:06,502-gameLogger-INFO-player took 8.1 damage
+2023-01-27 06:44:07,300-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:07,300-gameLogger-INFO-player took 9.2 damage
+2023-01-27 06:44:08,086-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:08,086-gameLogger-INFO-player took 2.6 damage
+2023-01-27 06:44:08,911-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:08,911-gameLogger-INFO-player took 4.1 damage
+2023-01-27 06:44:09,760-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:09,760-gameLogger-INFO-player took 8.8 damage
+2023-01-27 06:44:10,737-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:10,737-gameLogger-INFO-player took 7.5 damage
+2023-01-27 06:44:10,737-gameLogger-INFO-player defeated the monster
+2023-01-27 06:44:11,445-gameLogger-INFO-player moved from (0, 13) to (0, 14)
+2023-01-27 06:44:11,446-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:44:11,937-gameLogger-INFO-player moved from (0, 14) to (0, 15)
+2023-01-27 06:44:11,937-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:44:13,637-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:13,637-gameLogger-INFO-player took 9.1 damage
+2023-01-27 06:44:14,336-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:14,336-gameLogger-INFO-player took 3.4 damage
+2023-01-27 06:44:15,047-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:15,047-gameLogger-INFO-player took 3.7 damage
+2023-01-27 06:44:15,776-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:15,776-gameLogger-INFO-player took 1.4 damage
+2023-01-27 06:44:16,490-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:16,490-gameLogger-INFO-player took 2.2 damage
+2023-01-27 06:44:17,223-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:17,223-gameLogger-INFO-player took 6.8 damage
+2023-01-27 06:44:17,946-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:17,946-gameLogger-INFO-player took 3.4 damage
+2023-01-27 06:44:18,673-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:44:18,673-gameLogger-INFO-player took 3.3 damage
+2023-01-27 06:44:18,673-gameLogger-INFO-player defeated the monster
+2023-01-27 06:45:05,149-gameLogger-INFO-player moved from (0, 0) to (0, 0)
+2023-01-27 06:45:05,149-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:45:12,016-gameLogger-INFO-player moved from (0, 0) to (0, 1)
+2023-01-27 06:45:12,016-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:45:13,436-gameLogger-INFO-player moved from (0, 1) to (0, 2)
+2023-01-27 06:45:13,436-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:45:14,443-gameLogger-INFO-player moved from (0, 2) to (0, 3)
+2023-01-27 06:45:14,443-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:45:19,522-gameLogger-INFO-player moved from (0, 3) to (0, 3)
+2023-01-27 06:45:19,522-gameLogger-INFO-player entered the door but they dont have the key
+2023-01-27 06:45:49,348-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:45:49,348-gameLogger-INFO-player took 8.2 damage
+2023-01-27 06:45:50,427-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:45:50,427-gameLogger-INFO-player took 3.2 damage
+2023-01-27 06:45:51,659-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:45:51,659-gameLogger-INFO-player took 4.9 damage
+2023-01-27 06:45:52,629-gameLogger-INFO-player used sword to attack the monster
+2023-01-27 06:45:52,629-gameLogger-INFO-player took 6.0 damage
+2023-01-27 06:45:52,629-gameLogger-INFO-player defeated the monster
+2023-01-27 06:46:02,437-gameLogger-INFO-player got 2 gold while scavenging
+2023-01-27 06:46:04,796-gameLogger-INFO-player got 4 gold while scavenging
