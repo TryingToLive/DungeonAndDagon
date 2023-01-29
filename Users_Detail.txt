@@ -5,3 +5,5 @@
 {'user': 'nimayi', 'level': <class 'int'>, 'money': <class 'int'>, 'items': '', 'stocks': ''}
 {'user': 'ashkan', 'level': <class 'int'>, 'money': <class 'int'>, 'items': '', 'stocks': ''}
 {'user': 'sinayi', 'level': <class 'int'>, 'money': <class 'int'>, 'items': ''}
+{'user': 'masoum', 'level': <class 'int'>, 'money': <class 'int'>, 'items': ''}
+{'user': 'samimmm', 'level': <class 'int'>, 'money': <class 'int'>, 'items': ''}

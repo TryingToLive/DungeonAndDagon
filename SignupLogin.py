@@ -6,22 +6,15 @@ import msvcrt
 import logging
 import logging.config
 
-logging.config.fileConfig('loggerConfig.toml',disable_existing_loggers=False)
+logging.config.fileConfig("loggerConfig.toml", disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
-gameLog = logging.getLogger('gameLogger')
-userLog = logging.getLogger('userLogger')
+gameLog = logging.getLogger("gameLogger")
+userLog = logging.getLogger("userLogger")
+
 
 class Login:
-    # logger = logging.getLogger(__name__)
-    # f_handler = logging.FileHandler("Users.log")
-    # f_handler.setLevel(logging.INFO)
-    # f_format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-    # f_handler.setFormatter(f_format)
-    # logger.addHandler(f_handler)
-    # logger.setLevel(logging.INFO)
-
     def __init__(self, *args, **kwargs) -> None:
-        pass
+        self._User_Name = ""
 
     def SignUpUser(self):
         os.system("cls")
@@ -34,6 +27,9 @@ class Login:
         os.system("cls")
         print(colored("Welcome to D&D !!!", "red", "on_green"))
         self.Welcome()
+
+    def return_user(self):
+        return self._User_Name
 
     def loginUser(self) -> bool:
         os.system("cls")
@@ -72,3 +68,6 @@ class Login:
 
         else:
             raise ValueError("please choose one from above")
+
+
+login = Login()
